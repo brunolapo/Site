@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Essência & Cuidado</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fdfaf6;
+}
+
+header {
+    background: #a8c3a0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.banner {
+    background: url('https://via.placeholder.com/1200x400') center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 24px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produto h3 {
+    margin: 10px 0;
+}
+
+.preco {
+    color: #6b8e6b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.botao:hover {
+    background: #1ebe5d;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #a8c3a0;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Essência & Cuidado 🌿</h1>
+    <p>Seu momento de bem-estar começa aqui</p>
+</header>
+
+<div class="banner">
+    Cuide de você todos os dias ✨
+</div>
+
+<div class="container">
+
+    <div class="produto">
+        <img src="https://via.placeholder.com/300" alt="Creme Hidratante">
+        <h3>Creme Hidratante Natural</h3>
+        <p class="preco">R$ 39,90</p>
+        <a class="botao" href="https://wa.me/5599999999999?text=Quero%20comprar%20Creme%20Hidratante">Comprar</a>
+    </div>
+
+    <div class="produto">
+        <img src="https://via.placeholder.com/300" alt="Óleo Essencial">
+        <h3>Óleo Essencial Relaxante</h3>
+        <p class="preco">R$ 29,90</p>
+        <a class="botao" href="https://wa.me/5599999999999?text=Quero%20comprar%20Óleo%20Essencial">Comprar</a>
+    </div>
+
+    <div class="produto">
+        <img src="https://via.placeholder.com/300" alt="Kit Spa">
+        <h3>Kit Spa em Casa</h3>
+        <p class="preco">R$ 79,90</p>
+        <a class="botao" href="https://wa.me/5599999999999?text=Quero%20comprar%20Kit%20Spa">Comprar</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Essência & Cuidado</p>
+</footer>
+
+</body>
+</html>
